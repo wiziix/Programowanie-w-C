@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-int main() {    
-    printf("%d", Average('d'));
-}
-
 int Average(int num) {
     if (num < 0) {
         return 0;
@@ -23,3 +19,8 @@ int Average(int num) {
         return sum;
     }
 }
+
+int main() {    
+    printf("%d", Average(24));
+}
+
