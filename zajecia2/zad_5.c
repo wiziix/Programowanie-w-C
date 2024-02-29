@@ -7,7 +7,7 @@ typedef struct {
     char phone[12];
 } Contact;
 
-//metoda zwaracajy index ostatniego "niepustego" elemntu w tablicy
+//metoda zwaracajaca index ostatniego "niepustego" elemntu w tablicy
 int lastElementIndex(Contact * arr, int size) {
     int i;
     for(i = 0; i < size; i++) {
