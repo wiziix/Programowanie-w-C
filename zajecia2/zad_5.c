@@ -102,7 +102,7 @@ int main() {
                " ### Press 0 to exit \n"
         );
         //wybor opcji przez uzytkownika
-        scanf_s("%d", &i);
+        scanf("%d", &i);
         //switch case reazliujacy opcje wymienione w interface
         switch(i) {
             case 1: {
