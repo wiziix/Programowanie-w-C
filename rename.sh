@@ -33,7 +33,6 @@ replace_space_with_underscore_in_files() {
     done
 }
 
-rename_files_recursively
 remove_polish_characters
 replace_space_with_underscore_in_directories
 replace_space_with_underscore_in_files
