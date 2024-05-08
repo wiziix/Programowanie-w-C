@@ -36,7 +36,7 @@ int sumValidGames(string str) {
 }
 //Part II
 int dicePowerCount(string str) {
-    int redVal = -1, blueVal = -1, greenVal = -1, num;
+    int redVal = 1, blueVal = 1, greenVal = 1, num;
     regex reg("(\\d+)\\s+(\\w+)");
     smatch match;
 
